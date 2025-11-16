@@ -22,8 +22,8 @@ const char* password = "";
 
 // Detail Webhook Telegram Simulasi (ganti dengan token bot dan chat ID yang sebenarnya untuk Telegram nyata)
 // Contoh: Gunakan Telegram Bot API: https://api.telegram.org/bot<TOKEN>/sendMessage
-const char* webhookURL = "https://api.telegram.org/bot8449040606:AAFfmVqsKP1_8ywdgNnxTrJlMKaS7zuCAIk/sendMessage";  // Ganti dengan token bot Anda
-const char* chatID = "1135349925";  // Ganti dengan chat ID Anda
+const char* webhookURL = "https://api.telegram.org/botYOUR_BOT_TOKEN/sendMessage";  // Ganti dengan token bot Anda
+const char* chatID = "YOUR_CHAT_ID";  // Ganti dengan chat ID Anda
 
 // Objek DHT
 DHT dht(DHTPIN, DHTTYPE);
